@@ -1,17 +1,14 @@
-# Prem
+pkg update && pkg upgrade
+
+pkg install python git
+
+pip install requests bs4 futures
+
+rm -rf Brute
+
+git clone https://github.com/Dayyan-GEE/mm88.git
 
 
-$ pkg update && pkg upgrade
+cd $HOME/Brute
 
-$ pkg install python git
-
-$ pip install requests bs4 futures
-
-$ rm -rf Prem
-
-$ git clone https://github.com/Samsudin17/Prem
-
-
-$ cd $HOME/Prem
-
-$ python run.py
+python run.py
